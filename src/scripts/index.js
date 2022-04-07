@@ -3,7 +3,6 @@ import '../styles/main.css';
 import '../styles/responsive.css';
 // Fetch data json
 import ('../DATA.json').then(({default: jsonData}) => {
-    console.log(jsonData)
     let datas = jsonData['restaurants']
     let dataList = '';
     datas.forEach(function(data) {

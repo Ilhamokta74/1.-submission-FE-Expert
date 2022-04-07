@@ -53,7 +53,8 @@ body {
 }
 .iconmenu a {
 	text-decoration: none;
-	color: white !important
+	color: white !important;
+	font-size: 2.5em;
 }
 .nav_mobile a {
 	display: inline-block;
@@ -82,7 +83,7 @@ body {
 	box-sizing: border-box;
 	display: inline-block;
 	line-height: 24px;
-	font-size: 20px;
+	font-size: 25px;
 	color: white !important;
 }
 .navitems {
@@ -150,7 +151,7 @@ main {
 }
 .latest h1 {
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 3em;
 	margin-bottom: 50px
 }
 .list {
@@ -174,17 +175,18 @@ main {
 	background-color: #135ea8;
 	padding: 5px 10px 5px;
 	color: white;
-	font-weight: 500
+	font-weight: 500;
+	font-size: 15px;
 }
 .list_item_content {
 	padding: 16px
 }
 .list_item_thumb {
 	width: 100%;
-	min-height: 50%
+	max-height: 50%
 }
 .list_item_rating {
-	font-size: 20px;
+	font-size: 3em;
 	text-transform: uppercase;
 	color: #999;
 	font-weight: 500

@@ -12,8 +12,7 @@ import ('../DATA.json').then(({default: jsonData}) => {
             <div class="city">${data['city']}</div>
             <div class="list_item_content">
                 <p class="list_item_rating">
-                    Rating : 
-                    <a href="#" class="list_item_rating_value">${data['rating']}</a>
+                    Rating : ${data['rating']}
                 </p>
                 <h1 class="list_item_title"><a href="#">${data['name']}</a></h1>
                 <div class="list_item_desc">${data['description'].slice(0, 150)}...</div>

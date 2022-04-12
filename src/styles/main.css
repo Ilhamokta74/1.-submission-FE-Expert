@@ -186,14 +186,11 @@ main {
 	max-height: 50%
 }
 .list_item_rating {
-	font-size: 3em;
+	font-size: 1.5em;
 	text-transform: uppercase;
 	color: #999;
-	font-weight: 500
-}
-.list_item_rating_value {
+	font-weight: 500;
 	color: red;
-	text-decoration: none
 }
 .list_item_title {
 	font-weight: 500;
@@ -202,8 +199,8 @@ main {
 	transition: 0.3s opacity
 }
 .list_item:hover {
-	color: rgb(187, 89, 89);
-	transform: translateY(-7px);
+	color: rgb(197, 64, 64);
+	transform: translateY(-8px);
 }
 .list_item_title a {
 	text-decoration: none;
